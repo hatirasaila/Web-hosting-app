@@ -4,12 +4,12 @@ import { Input } from "@/components/ui/input";
 
 export default function Footer() {
   return (
-    <footer className="bg-card border-t">
+    <footer className="bg-card border-t" id = "about">
       <div className="max-w-7xl mx-auto px-4 md:px-6 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           <div className="lg:col-span-2 space-y-4">
             <h3 className="text-2xl font-bold text-primary" data-testid="text-footer-logo">
-              HostFlow
+              Saila's Hoting
             </h3>
             <p className="text-muted-foreground max-w-sm">
               Lightning-fast web hosting with 99.9% uptime guarantee. Trusted by over 500,000 websites worldwide.
@@ -84,7 +84,7 @@ export default function Footer() {
         <div className="border-t pt-8 space-y-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground" data-testid="text-copyright">
-              © 2025 HostFlow. All rights reserved.
+              © 2025 Saila's Hosting. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-muted-foreground">
               <a href="#" className="hover:text-foreground transition-colors" data-testid="link-privacy">Privacy Policy</a>
